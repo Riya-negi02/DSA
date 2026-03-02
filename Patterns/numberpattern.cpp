@@ -58,3 +58,35 @@
 //     }
 //     return 0;
 // }
+
+//pattern mountain
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int tr;
+//     cin>>tr;
+//     for(int row=1; row<=tr-1; row++){
+//         int start=1;
+//         for(int i=1; i<=row; i++){
+//             cout<<start;
+//             start++;
+//         }
+//         for(int j=1; j<=(2*tr-1)-2*row; j++){
+//             cout<<" ";
+//         }
+//         start--;
+//         for(int i=1; i<=row; i++){
+//             cout<<start;
+//             start--;
+//         }
+//         cout<<endl;
+//     }
+//     for(int i=1; i<=tr; i++){
+//         cout<<i;
+//     }
+//     for(int j=tr-1; j>=1; j--){
+//         cout<<j;
+//     }
+//     cout<<endl;
+//     return 0;
+// }
