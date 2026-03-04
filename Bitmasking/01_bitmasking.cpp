@@ -25,3 +25,16 @@
 //     return 0;
 // }
 
+//minimum bitflips LC:2220 minbitflips
+// class Solution {
+// public:
+//     int minBitFlips(int start, int goal) {
+//         int count=0;
+//         int num= (start^goal);            //num of 1= number of bitflips 
+//         while(num>0){
+//             count= count+ (num&1);            //can not do mod 10 thing this is how we find if didgit is 1 or not
+//             num>>=1;                           // rightshift instead of n/10
+//         }
+//         return count;
+//     }
+// };
